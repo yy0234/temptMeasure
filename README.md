@@ -13,7 +13,7 @@ Program also avaliable to run in codesandbox:
 
 https://codesandbox.io/s/temptmeasure-forked-fo6wnc?file=/index.js
 
-To run the program in codesandbox (may need to have a codesandbox account)
+To run the program in codesandbox (need to have a codesandbox account)
 
 1. fork the program
 2. add a new Terminal
