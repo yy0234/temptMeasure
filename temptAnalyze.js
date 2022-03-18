@@ -55,9 +55,9 @@ const main = async () => {
     var tmpStorage = [];
 
     for (const [index, value] of questions.entries()) {
-        for await (const answer of task(value.question)) {
+        for await (var answer of task(value.question)) {
             if ((value.allowMutiInput && checkTemperValid(answer)) || (!value.allowMutiInput && !isNaN(answer) && answer.length > 0)) {
-                value.isPos && answer < 0 ? answer = Math.abs(parseFloat(answer)) : '';
+                if(value.isPos && answer < 0) answer = Math.abs(parseFloat(answer));
                 tmpStorage[index] = answer; break;
             }
             console.log('** Invalid Input: Please enter Numerical Value');
