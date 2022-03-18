@@ -11,7 +11,7 @@ How to start temptAnalyze.js
 3. run with command: node temptAnalyze.js 
 
 
-program also avaliable to run in codesandbox:
+Program also avaliable to run in codesandbox:
 
 https://codesandbox.io/s/temptmeasure-forked-fo6wnc?file=/index.js
 
